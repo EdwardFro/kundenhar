@@ -1,0 +1,25 @@
+body {
+height: 100vh;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: 15vh 10vh;
+    grid-template-areas: 
+    'hd hd hd as'
+    'nv nv nv nv';
+}
+
+header{
+    grid-area: hd;
+
+}
+
+nav{
+grid-area: nv;
+}
+
+aside{
+    grid-area: as;
+}
