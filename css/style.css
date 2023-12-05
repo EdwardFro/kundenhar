@@ -6,8 +6,9 @@ height: 100vh;
     display: grid;
     grid-template-columns: 20vw 20vw 20vw 20vw;
     grid-template-rows: 15vh 10vh;
+    gap: 10vh;
     grid-template-areas: 
-    'hd hd hd as'
+    'hd hd as as'
     'nv nv nv nv';
 }
 
@@ -22,4 +23,11 @@ grid-area: nv;
 
 aside{
     grid-area: as;
+    background-color: #9b59b6;
+}
+
+#logga{
+ width: 450px;
+ height: 180px;
+ margin-top: 0px;
 }
