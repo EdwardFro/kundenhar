@@ -8,8 +8,10 @@ height: 100vh;
     grid-template-rows: 15vh 10vh;
     gap: 10vh;
     grid-template-areas: 
-    'hd hd as as'
-    'nv nv nv nv';
+    'hd hd hd as'
+    'nv nv nv nv'
+    'mn mn mn mn'
+    ;
 }
 
 header{
@@ -22,12 +24,35 @@ grid-area: nv;
 }
 
 aside{
+    margin-top: 10px ;
     grid-area: as;
-    background-color: #9b59b6;
+}
+
+main{
+grid-area: mn;
+display: flex;
+background-color:#9b59b6 ;
 }
 
 #logga{
  width: 450px;
  height: 180px;
  margin-top: 0px;
+}
+
+#rubrik{
+    color: white;
+}
+
+.aside_bar{
+    background-color: #9b59b6;
+    size: 200px;
+}
+
+#main{
+    background-color: ;
+}
+
+a { 
+ text-decoration: none;
 }
