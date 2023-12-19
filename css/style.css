@@ -58,6 +58,7 @@ main{
     margin-bottom: 80px;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 
@@ -73,7 +74,7 @@ footer{
     align-items: center;
     grid-area: ft;
     background-color:#7e3e91;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 header, nav, aside, main, section {
